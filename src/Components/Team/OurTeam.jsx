@@ -1,7 +1,7 @@
 import React from 'react'
 import './OurTeam.css'
 import aman from './aman.jpg'
-import nancy from '../images/Nancy.jpeg'
+import nancy from './nancy.png'
 import harsh from './harsh.webp'
 import Kaavya from './Kaavya.jpg'
 import anshul from './anshul.png'
