@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import './TimeLine.css'
+import './Timeline.css'
 import Smoke from '../../Part/Smoke'
 import { motion } from 'framer-motion'
 import Part from '../../Part/Part'
