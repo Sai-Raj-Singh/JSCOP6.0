@@ -1,0 +1,135 @@
+#aaboutus {
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: aqua; */
+}
+
+.outeraboutt {
+    /* background-color: antiquewhite; */
+    background-image: url("../images/back7.jpeg");
+    background-size: cover;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center center;
+        padding-left: 9vw;
+        padding-right: 8vw;
+}
+
+.ghjk {
+   
+}
+
+.aabout {
+    /* background-color: blue; */
+    /* width: 100%; */
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    /* position: relative; */
+    /* height: 100vh; */
+    /* height: 200px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* min-height: fit-content; */
+}
+
+/* .aboutpic {
+    animation: pumnping 1s ease infinite;
+}
+
+@keyframes pumnping {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+} */
+
+.alogo {
+    width: 100%;
+    /* height: 70%; */
+}
+
+.aglow {
+    border-radius: 25px;
+    padding: 8px;
+    /* padding: 30px; */
+    /* border-radius: 2%; */
+    color: #fff;
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
+      0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+    -webkit-animation: blink 1.5s infinite alternate;
+    animation: blink 1.5s infinite alternate;
+  }
+
+  @-webkit-keyframes blink {
+    100% {
+      box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,
+        0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
+  
+  @keyframes blink {
+    100% {
+      box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,
+        0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
+
+.aboutleft {
+    width: 40%;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  /* background-color: azure; */
+}
+
+
+.aboutright {
+    width: 41%;
+    padding: 1em;
+    /* background-color: palegreen; */
+}
+
+
+.agallary {
+     /* margin-top: 40px; */
+}
+
+.agalhead {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xxx-large;
+    margin: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: antiquewhite; */
+    /* padding-bottom: 20px; */
+}
+
+
+@media screen and (max-aspect-ratio: 4/3) {
+   
+    .aabout {
+        display: block;
+    }
+    .aboutleft {
+        margin: auto;
+        width: 60%;
+        margin-top: 12%;
+        margin-bottom: 10%;
+    }
+    .aboutright {
+        width: 100%;
+        padding: 0 4%;
+    }
+
+}
+

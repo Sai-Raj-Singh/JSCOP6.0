@@ -1,0 +1,191 @@
+.eevents{
+    /* background-image: url('../images/bgimage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 81%;
+    margin: auto;
+    /* height: 100vh; */
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.eeee {
+    /* background-color: black; */
+    background-image: url("../images/back1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center center;
+}
+
+.eCards{
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14vh;
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   background: rgba(255, 255, 255, 0.07);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.1px);
+-webkit-backdrop-filter: blur(2.1px);
+border: 1px solid rgba(255, 255, 255, 0.5);
+   
+
+}
+.ecard{
+    /* border: 2px solid green; */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    /* z-index: 30; */
+    margin-top: 20px;
+    box-shadow: 0 0 2px #fff, 0 0 8px #fff, 0 0 10px #0ba9ca, 0 0 20px #0ba9ca,
+        0 0 30px #0ba9ca, 0 0 40px #0ba9ca;
+      -webkit-animation: blink 1s infinite alternate;
+      animation: blink 1s infinite alternate;
+    border-radius: 15px;
+    
+}
+  
+  @keyframes blink {
+    100% {
+      box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0ba9ca,
+        0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+    }
+  }
+
+
+
+.erimgg{
+    height: 35rem;
+    width: 25rem;
+    transition: all 0.7s;  
+}
+
+.ecard:hover .ecard-body{
+    right: 0;
+}
+
+.ewriting{
+    /* height: 100vh; */
+     
+    /* width: 100%; */
+    padding: 3vw;
+}
+
+.etitle{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5.5vw;    
+    display: inline-block;
+    font-weight: 400;
+}
+
+.ecard-body{
+   height: 35rem;
+   width: 25rem;
+   background: rgba(128, 128, 128, 0);
+   position: absolute;
+   top: 0;
+   right: -100%;
+   backdrop-filter: blur(5px);
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.4s;
+}
+  
+.ecard-btn{
+    margin-top: 10px;
+    color: #fff;
+    /* color: black; */
+    background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.8px);
+  -webkit-backdrop-filter: blur(2.8px);
+  border: 2px solid rgba(255, 255, 255, 0.22);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+}
+
+@media screen and (max-aspect-ratio: 4/3) {
+
+    .etitle{
+        /* font-size: 2.3vw;     */
+        font-weight: 800;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .ecard-btn{
+        font-size: 2vh; 
+    }
+
+    .ecard{
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        margin-top: 20px;
+        border-radius: 15px;
+        
+    }
+
+    .eCards {
+        row-gap: 8vw;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+       background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 0;
+    }
+    .erimgg{
+        height: 45vw;
+        width: 35vw;
+        transition: all 0.7s;  
+    }
+   
+    .ecard-body{
+        height: 45vw;
+        width: 35vw;
+        background: rgba(128, 128, 128, 0);
+        position: absolute;
+        font-size: 1vh; 
+        top: 0;
+        right: -100%;
+        backdrop-filter: blur(5px);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.4s;
+     }
+
+     
+
+}
+
+
+
+
+

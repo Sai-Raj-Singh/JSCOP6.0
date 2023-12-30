@@ -1,0 +1,262 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap'); */
+
+body {
+
+    /* background-image: linear-gradient(to top, #000428, #004e92); */
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+    overflow-x: hidden;
+
+}
+
+.hpfront {
+    background-size: cover;
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* position: absolute; */
+    /* z-index: -10; */
+    height: 100vh;
+    /* padding-left:8vh; */
+    /* padding-right: 80px; */
+    padding-left: 9vh;
+    padding-right: 9vh;
+    width: 100%;
+}
+
+.Homescreen {
+    background-image: url("pic2.jpeg");
+    background-size: cover;
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center center;
+
+    position: relative;
+    z-index: -10;
+    height: 100vh;
+    /* padding-left: 80px; */
+    /* padding-right: 80px; */
+    width: 100%;
+}
+
+.aaboutuscont {
+    color: white;
+    font-size: larger;
+}
+
+.homejscop {
+    /* font-family: 'Rubik Scribble', sans-serif; */
+    /* font-family: 'Foldit', sans-serif; */
+    font-family: 'Rubik Vinyl', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: "lato", sans-serif; */
+    /* font-family: 'Michroma', sans-serif; */
+    /* font-family: 'Changa', sans-serif; */
+    /* font-family: 'Elianto'; */
+    /* color:rgba(255,255,255,0.8); */
+    color: white;
+    font-size: 12vw;
+    text-align: center;
+    /* background-color: aquamarine; */
+    font-weight: bolder;
+    /* line-height: 150px; */
+    /* letter-spacing: 0.04em; */
+    height: auto;
+}
+
+/* #jscopno {
+    border: 1px solid rgba(255,255,255,0.3);
+} */
+
+.homeregister {
+    color: white;
+    /* background-color: bisque; */
+    width: 100%;
+    text-align: center;
+}
+
+.hregister {
+    font-size: 3vh;
+    font-weight: bolder;
+    /* font-style: ; */
+    font-family: 'Michroma', sans-serif;
+  height: 8.1vh;
+  width: 34vh;
+  color: rgba(255,255,255,0.9);
+  background: rgba(255, 255, 255, 0.08);
+border-radius: 12px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.8px);
+-webkit-backdrop-filter: blur(2.8px);
+border: 2px solid rgba(255, 255, 255, 0.22);
+}
+
+.hline {
+    color: rgba(255,255,255,1);
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    border-top: 2px solid rgba(255,255,255,1);
+    padding-top: 0.2vw;
+    /* margin-top: 0.2vw; */
+    font-size: 2.5vh;
+    font-size: x-large;
+    font-weight: bolder;
+    height: auto;
+    /* width: 100%; */
+    width: 92%;
+    /* background-color: aqua; */
+
+}
+
+.confrr {
+    /* background-color: azure; */
+    display: flex;
+    justify-content: center;
+}
+
+.hoptica {
+    color: rgba(255,255,255,1);
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    /* position: absolute; */
+    top: 10vh;
+    /* font-size: medium; */
+    font-size: x-large;
+    font-weight: bolder;
+    /* left: 40%; */
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+#ooo {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/* .HomeHeading {
+    width: 100%;
+    text-align: center;
+} */
+
+.earthpic {
+   
+   min-width: 100%;
+   /* width: 200px;
+   height: 100px; */
+   /* width: auto; */
+   /* height: auto; */
+   height: 100vh;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+            /* height: 100vh; */
+            filter: drop-shadow(0 0 90px rgba(255,255,255,0.7));
+}
+
+.glow {
+    /* font-size: 80px; */
+    /* color: #fff; */
+    text-align: center;
+    /* animation: glow 1s ease-in-out infinite alternate; */
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #265488, 0 0 40px #1b2735, 0 0 50px #1b2735, 0 0 60px #1b2735, 0 0 70px #1b2735;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #1b2735, 0 0 40px #1b2735, 0 0 50px #1b2735, 0 0 60px #1b2735, 0 0 70px #1b2735, 0 0 80px #1b2735;
+    }
+  }
+
+  /* .triangle-down {
+	width: 0;
+    position: absolute;
+	height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+	border-left: 50vw solid transparent;
+	border-right: 50vw solid transparent;
+	border-top: 50vh solid #14202d;
+}
+
+.triangle-up {
+	width: 0;
+  
+	height: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+	border-left: 50vw solid transparent;
+	border-right: 50vw solid transparent;
+	border-bottom: 50vh solid #1b2735;
+} */
+
+.hregister:hover {
+    color: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#jscopno {
+    /* -webkit-text-stroke: 4px white;
+    color: rgba(0,0,0,0); */
+    /* text-stroke: 2px black; */
+    /* color: white; */
+    /* color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-color: black; */
+
+}
+
+
+
+@media screen and (max-aspect-ratio: 4/3) {
+    .hpfront {
+
+        padding-left: 8vw;
+        padding-right: 8vw;
+        
+    }
+    .aaboutuscont {
+        /* font-size: 5vw; */
+    }
+    .homejscop {
+        font-size: 13vw;
+    }
+    .hregister {
+        font-size: 3.2vw;
+        font-weight: bolder;
+        width: 34vw;
+        height: 10vw;
+      
+    }
+    .hline {
+        font-size: 3.3vw;
+        width: 88%;
+    
+    }
+    .hoptica {
+   
+        font-size: 3.3vw;
+       
+    }
+    #ooo {
+        font-size: 3.3vw;
+        
+    }
+
+}
+

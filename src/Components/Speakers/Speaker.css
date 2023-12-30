@@ -1,0 +1,79 @@
+.ssbig {
+    /* height: 100vh; */
+    width: 100%;
+    position: absolute;
+     /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    /* background-color: aqua; */
+     z-index: -10;
+     /* background-image: url("pic2.jpeg"); */
+     /* background-color: black; */
+     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding-bottom: 7vh;
+    padding-left: 10vh;
+        padding-right: 6vh;
+        background-image: url("../images/back6.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center center;
+    /* background-color: blueviolet; */
+}
+
+.ssbig2 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* margin: 0px 82px; */
+    /* padding-top: 50px; */
+}
+
+.spheading {
+    /* background-color: aqua; */
+    color: white;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.sspeaker {
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.07);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.1px);
+-webkit-backdrop-filter: blur(2.1px);
+border: 1px solid rgba(255, 255, 255, 0.5);
+    /* background-color: yellow; */
+    /* width: 100%; */
+}
+
+@media screen and (max-aspect-ratio: 4/3) {
+   
+   .ssbig {
+    padding-bottom: 8vw;
+    padding-left: 8vw;
+    padding-bottom: 7vw;
+   }
+   .sspeaker {
+    /* padding: 8vw 8vw 0vw 8vw; */
+    /* background-color: aqua; */
+    padding-top: 2vh;
+    padding-left: 9vw;
+    padding-right: 8vw;
+    background: rgba(255, 255, 255, 0);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: none;
+    /* border: none; */
+   }
+
+
+}
+

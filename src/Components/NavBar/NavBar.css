@@ -1,0 +1,127 @@
+.nnav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 6vh;
+    z-index: 24;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 8vh;
+    height: 88vh;
+    border-radius: 20px;
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0.08);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.8px);
+-webkit-backdrop-filter: blur(2.8px);
+border: 1px solid rgba(255, 255, 255, 0.22);
+     transition: width 0.3s ease;
+    overflow: hidden;
+
+}
+
+.ncont {
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+}
+
+.nbar {
+    
+    display: flex;
+    /* font-weight: 700; */
+    /* font-size: 100%; */
+}
+
+.nbar:hover .navct {
+    color: rgba(255,255,255,1);
+}
+
+.nsym {
+
+    height: 8vh;
+    min-width: 8vh;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlink {
+    text-decoration: none;
+    transition: border 1s linear;
+}
+
+.navct {
+    text-decoration: none;
+    min-width: 9vw;
+    height: 8vh;
+    padding-left: 2vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(255,255,255,0.88);
+}
+
+svg {
+    /* font-size: xx-large; */
+    height: 3.5vh;
+    width: 3.5vh;
+    color: rgba(255,255,255,0.88);
+}
+
+.ncont {
+    /* background-color: aqua; */
+   
+}
+
+.nnav:hover {
+    /* width: 22vw; */
+    width: 160px;
+    /* width: fit-content; */
+}
+
+
+@media screen and (max-aspect-ratio: 4/3) {
+    
+    svg {
+        /* height: 3.4vh;
+        width: 3.4vh; */
+        height: 3.5vw;
+        min-width: 3.5vw;
+        /* font-weight: 700;  */
+    }
+    .navct {
+        min-width: 8vh;
+        height: 7.7vw;
+        padding-left: 2vh;
+        padding-right: 4vh;
+    }
+    .nsym {
+        height: 7.7vw;
+        min-width: 7.7vw;
+    }
+    .nbar {
+        display: flex;
+        /* font-weight: 700; */
+        font-weight: 600;
+    }
+    .nnav {
+        top: 10vh;
+        width: 7.7vw;
+        height: 80vh;
+    }
+    .nnav:hover {
+       /* width: fit-content; */
+       width: 160px;
+    }
+}
+
+
+.active {
+    color: rgba(255,255,255,1) !important;
+    border-left: 2px solid white;
+ }
+
